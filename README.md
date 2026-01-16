@@ -386,9 +386,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [LinkedIn](https://www.linkedin.com/in/anjorin-olayemi-enitan-0121ab210/)
 [Email](Kingflirckz22@gmail.com)
 
-**Project Link:** [(https://github.com/Kingflirckz22/Aws-cost-optimizer.git)]
-
-
 ---
 
 *Star this repository if you find it helpful!*
