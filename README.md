@@ -1,25 +1,20 @@
 # AWS Cost Optimizer
 
-![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20DynamoDB%20%7C%20API%20Gateway-orange)
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![React](https://img.shields.io/badge/React-18-61DAFB)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 > A serverless application that automatically identifies and reports AWS cost optimization opportunities, helping reduce cloud spending through automated resource scanning and intelligent recommendations.
 
-## 🎯 Project Overview
+## Project Overview
 
 AWS Cost Optimizer is a production-ready serverless solution that scans your AWS infrastructure to detect wasteful spending across multiple services. It provides actionable insights through an interactive dashboard, helping cloud engineers and FinOps teams optimize their AWS costs.
 
 ### Key Features
 
-- 🔍 **Multi-Service Scanning:** EBS volumes, EC2 instances, Elastic IPs, and Snapshots
-- 💰 **Cost Calculation:** Accurate monthly and annual savings estimates
-- 📊 **Interactive Dashboard:** Real-time visualization of cost optimization opportunities
-- 🔄 **Automated Scans:** Schedule daily or on-demand scans
-- 📈 **Trend Analysis:** Track optimization progress over time
-- 📋 **Detailed Reports:** Export findings to CSV for stakeholder reporting
-- ⚡ **Serverless Architecture:** Low-cost, scalable, and maintenance-free
+- **Multi-Service Scanning:** EBS volumes, EC2 instances, Elastic IPs, and Snapshots
+- **Cost Calculation:** Accurate monthly and annual savings estimates
+- **Interactive Dashboard:** Real-time visualization of cost optimization opportunities
+- **Automated Scans:** Schedule daily or on-demand scans
+- **Trend Analysis:** Track optimization progress over time
+- **Detailed Reports:** Export findings to CSV for stakeholder reporting
+- **Serverless Architecture:** Low-cost, scalable, and maintenance-free
 
 ### What It Detects
 
@@ -30,7 +25,7 @@ AWS Cost Optimizer is a production-ready serverless solution that scans your AWS
 | **Unattached Elastic IPs** | IPs without AssociationId | $3.60 per IP |
 | **Old Snapshots** | Snapshots >180 days old | $0.05/GB-month |
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -70,7 +65,7 @@ AWS Cost Optimizer is a production-ready serverless solution that scans your AWS
 - PowerShell (Deployment Scripts)
 - Git/GitHub (Version Control)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 aws-cost-optimizer/
@@ -108,7 +103,7 @@ aws-cost-optimizer/
     └── API_REFERENCE.md             # API Documentation
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -185,7 +180,7 @@ Creates REST API with endpoints:
 .\deploy-dashboard.ps1
 ```
 
-## 💻 Usage
+## Usage
 
 ### Running a Scan
 
@@ -240,7 +235,7 @@ aws lambda add-permission `
   --source-arn arn:aws:events:us-east-1:YOUR-ACCOUNT-ID:rule/cost-optimizer-daily-scan
 ```
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 ### Overview Page
 - Summary cards showing total findings and potential savings
@@ -260,7 +255,7 @@ aws lambda add-permission `
 - **Refresh:** Reload latest data
 - **Export:** Download CSV report
 
-## 🧪 Testing
+##  Testing
 
 ### Test Individual Scanners
 
@@ -288,7 +283,7 @@ npm start
 # Opens http://localhost:3000
 ```
 
-## 💰 Cost Analysis
+## Cost Analysis
 
 ### Monthly Operating Cost
 
@@ -312,9 +307,9 @@ If the tool identifies:
 
 **Total Potential Savings:** $136/month ($1,632/year)  
 **Tool Cost:** $1.60/month ($19.20/year)  
-**ROI:** 8,400% 🎉
+**ROI:** 8,400%
 
-## 🔒 Security
+## Security
 
 ### IAM Permissions (Least Privilege)
 
@@ -345,7 +340,7 @@ Lambda functions use read-only permissions:
 - ✅ Least-privilege IAM roles
 - ✅ Input validation on API
 
-## 📈 Roadmap
+##  Roadmap
 
 ### v1.1 (Planned)
 - [ ] RDS instance optimization
@@ -366,7 +361,7 @@ Lambda functions use read-only permissions:
 - [ ] Savings Plans analysis
 - [ ] AI-powered insights
 
-## 🤝 Contributing
+## Contributing
 
 This is a portfolio project, but contributions are welcome!
 
@@ -376,23 +371,24 @@ This is a portfolio project, but contributions are welcome!
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - AWS Documentation and best practices
 - React and Recharts communities
 - Cloud cost optimization resources
 
-## 📞 Contact
+## Contact
 
-**Your Name** - [LinkedIn](https://www.linkedin.com/in/anjorin-olayemi-enitan-0121ab210/) - [Email](Kingflirckz22@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/anjorin-olayemi-enitan-0121ab210/)
+[Email](Kingflirckz22@gmail.com)
 
-**Project Link:** [https://github.com/YOUR_USERNAME/aws-cost-optimizer](https://github.com/Kingflirckz22/Aws-cost-optimizer.git)
+**Project Link:** [(https://github.com/Kingflirckz22/Aws-cost-optimizer.git)]
 
 
 ---
 
-*Star ⭐ this repository if you find it helpful!*
+*Star this repository if you find it helpful!*
