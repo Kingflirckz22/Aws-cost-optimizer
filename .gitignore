@@ -1,0 +1,137 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# AWS
+*.zip
+.aws-sam/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+/frontend/build
+/frontend/.next
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+secrets.json
+credentials.json
+
+# --- OS / IDE ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+Thumbs.db
+
+# --- Frontend (React) ---
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Backend / Python ---
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+.venv
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# --- Terraform ---
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# --- Project Specific Data (Based on your images) ---
+# Ignore local scan outputs and test results
+*-output.json
+output-*.json
+output.json
+response.json
+error.txt
+
+# --- Logs ---
+*.log
+npm-debug.log*
+
+# --- Lambda Dependencies ---
+# Ignore scanner dependencies (these are installed during deployment)
+lambda/scanners/boto3/
+lambda/scanners/botocore/
+lambda/scanners/s3transfer/
+lambda/scanners/urllib3/
+lambda/scanners/jmespath/
+lambda/scanners/dateutil/
+lambda/scanners/six.py
+lambda/scanners/*.dist-info/
+lambda/scanners/bin/
+lambda/scanners/__pycache__/
+
+# --- Local Scripts / Temporary ---
+# Ignore temporary fix/test PowerShell scripts
+fix-*.ps1
+test-*.ps1
